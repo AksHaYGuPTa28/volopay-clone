@@ -1,0 +1,75 @@
+.section8Main {
+  padding: 100px;
+}
+.section8Main > h1 {
+  color: #17191d;
+  font-size: 48px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.25;
+  font-weight: 700;
+}
+.section8Main > p {
+  color: #4a4e57;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+.section8Mid {
+  display: flex;
+}
+
+.section8midLeft {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.section8midLeft > h3 {
+  color: #17191d;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.section8midLeft > p {
+  color: #4a4e57;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+}
+.section8midLeft > i {
+  color: #0075eb;
+  font-size: 24px;
+}
+
+.section8midRight > i {
+  color: #0075eb;
+  font-size: 24px;
+}
+.section8midRight {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.section8midRight > h3 {
+  color: #17191d;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.section8midRight > p {
+  color: #4a4e57;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+}
+.section8Pinktext {
+  color: #ff3366 !important;
+  font-size: 18px !important;
+}

@@ -1,0 +1,39 @@
+.bannerMain {
+  display: flex;
+}
+
+.bannerLeft {
+  width: 50%;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.bannerRight {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.bannerSmalltext {
+  color: #4a4e57;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.bannerButton {
+  margin-top: 25px;
+  color: white;
+  background: #ff3366;
+  border-radius: 5px;
+  padding: 10px 23px;
+  width: 180px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+
+@media screen and (max-width: 450px) {
+  .bannerMain {
+    flex-direction: column;
+  }
+}

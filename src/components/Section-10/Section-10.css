@@ -1,0 +1,28 @@
+.section10Main {
+  display: flex;
+  background-color: #ff3366;
+  padding-top: 100px;
+}
+
+.section10Left {
+  width: 50%;
+  padding-left: 120px;
+  padding-right: 30px;
+}
+
+.section10Left > h1 {
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 60px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.25;
+  font-weight: 700;
+}
+.section10Span {
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+}
+
+.section10Right {
+  width: 50%;
+}

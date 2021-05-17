@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+.typewriterText {
+  color: #17191d;
+  font-size: 65px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.25;
+  font-weight: 700;
+
+}
+
+.cursor {
+  animation: blink 0.7s steps(1) infinite;
+}
+.cursorText {
+  color: #ff3366;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

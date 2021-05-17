@@ -1,0 +1,54 @@
+.section7Main {
+  background-color: #17191d;
+  padding: 100px;
+}
+
+.section7Main > h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.25;
+  font-weight: 700;
+}
+.section7Main > p {
+  color: #8a8f98;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.section7cardContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.section7Card {
+  width: 33%;
+  padding: 30px;
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: #27282c;
+  margin-right: 20px;
+}
+
+.section7Card > h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.section7Card > p {
+  color: #8a8f98;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.section7Card > i {
+  color: #0075eb;
+  font-size: 24px;
+}

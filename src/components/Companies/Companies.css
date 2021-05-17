@@ -1,0 +1,35 @@
+.companiesMain {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.companiesMain > p {
+  color: #4a4e57;
+  font-size: 16px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.companiesMain > p > span {
+  color: #ff3366;
+  cursor: pointer;
+}
+
+.companieslogoContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 100px;
+  padding-bottom: 0px;
+  margin-left: 50px;
+  line-height: 100px;
+}
+
+.logo1 {
+  width: 25%;
+}
+
+.logo1 > img {
+  width: 125px;
+  object-fit: contain;
+}

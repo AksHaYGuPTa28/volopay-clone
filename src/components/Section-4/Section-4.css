@@ -1,0 +1,137 @@
+.section4Main {
+  padding: 100px;
+  background-color: #faf9fa;
+}
+.section4Main > h1 {
+  color: #17191d;
+  font-size: 48px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.25;
+  font-weight: 700;
+}
+.section4Main > p {
+  color: #4a4e57;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+.section4Mid {
+  display: flex;
+}
+
+.section4midLeft {
+  width: 50%;
+  margin-right: 40px;
+}
+
+.section4midLeft > h3 {
+  color: #17191d;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.section4midLeft > p {
+  color: #4a4e57;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+}
+.section4midLeft > i {
+  color: #0075eb;
+  font-size: 24px;
+}
+
+.section4midRight > i {
+  color: #0075eb;
+  font-size: 24px;
+}
+.section4midRight {
+  width: 50%;
+  margin-left: 40px;
+}
+
+.section4midRight > h3 {
+  color: #17191d;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.section4midRight > p {
+  color: #4a4e57;
+  font-size: 20px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+}
+.section4Pinktext {
+  color: #ff3366 !important;
+  font-size: 18px !important;
+  cursor: pointer;
+}
+
+.section4Pinktextline {
+  color: #ff3366 !important;
+  font-size: 18px !important;
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+
+.section4Lower {
+  display: flex;
+  margin-top: 100px;
+}
+
+.section4lowerLeft {
+  width: 50%;
+  float: right;
+  position: relative;
+}
+
+.section4lowerRight {
+  width: 50%;
+  position: relative;
+}
+.section4lowerRight > h1 {
+  color: #17191d;
+  font-size: 26px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.section4lowerRight > p {
+  color: #4a4e57;
+  font-size: 16px;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  margin-left: 30px;
+}
+.section4imageSection {
+  margin-left: 150px;
+}
+.section4imageSection > img {
+  border-radius: 8px;
+}
+
+.section4Quote {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+}
+
+.section4Avatar {
+  position: absolute;
+  right: 70px;
+  top: 250px;
+}
