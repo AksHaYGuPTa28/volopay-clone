@@ -17,19 +17,22 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
+      {/* <div className="chatIcon">
+        <i class="fa fa-comments"></i>
+      </div> */}
       <Navbar />
       <Banner />
       <Companies />
       <Section2 />
       <Section3 />
       <Section4 />
-      <Section5 />
       <Section6 />
+      <Section5 />
       <Section7 />
       <Section8 />
       <Section9 />
-      <Section10 />
-      <Footer />
+     <Section10 />
+        <Footer />
     </div>
   );
 }

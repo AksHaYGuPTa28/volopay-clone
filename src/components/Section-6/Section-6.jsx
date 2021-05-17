@@ -34,19 +34,12 @@ function Section6() {
         </div>
       </div>
       <div className="section6Lower">
-        <div className="section6lowerLeft">
-          <div className="section6imageSection">
-            <img
-              className="section6image"
-              src="https://thumb.tildacdn.com/tild6564-3262-4539-a639-383539633634/-/cover/341x399/center/center/-/format/webp/credit-card-mockup.jpg"
-              alt="section6-image"
-            />
-            <img
-              className="section3Avatar"
-              src="https://thumb.tildacdn.com/tild6539-6134-4434-a363-336465616233/-/cover/161x207/center/center/-/format/webp/1529909885713.jpg"
-              alt="section3-avatar"
-            />
-          </div>
+        <div className="section6imageSection">
+          <img
+            className="section6image"
+            src="https://thumb.tildacdn.com/tild6134-3332-4266-a263-663231373432/-/cover/341x397/center/center/-/format/webp/Man_Typing_on_Macboo.jpg"
+            alt="section6-image"
+          />
         </div>
         <div className="section6lowerRight">
           <img
@@ -55,10 +48,12 @@ function Section6() {
             alt="quote"
           />
           <h1>
-            Volopay helps us reduce time, effort and cost in expense management,
-            and give us generous cashback.
+            Volopay has helped to ease our expense approval process and has
+            provided us with better spend visibility and accountability.
           </h1>
-          <p>Jimmy Lee, Director of Finance, Beam Mobility</p>
+          <p>Li Lee, Finance Manager, Lynx Analytics</p>
+          <p className="section6Pinktextline">Read Case Study</p>
+
         </div>
       </div>
     </div>

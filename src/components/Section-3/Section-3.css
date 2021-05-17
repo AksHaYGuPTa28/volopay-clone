@@ -72,6 +72,7 @@
 .section3Pinktext {
   color: #ff3366 !important;
   font-size: 18px !important;
+  cursor: pointer;
 }
 
 .section3Lower {
@@ -124,4 +125,85 @@
   position: absolute;
   right: 70px;
   top: 250px;
+}
+.section3Pinktextline {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .section3Main {
+    padding: 30px;
+  }
+  .section3Main > h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  .section3Main > p {
+    font-size: 16px;
+  }
+  .section3Mid {
+    display: flex;
+    flex-direction: column;
+  }
+  .section3midLeft {
+    width: 100%;
+    margin-right: 40px;
+  }
+
+  .section3midLeft > h3 {
+    font-size: 18px;
+  }
+
+  .section3midLeft > p {
+    font-size: 16px;
+  }
+
+  .section3midRight {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+
+  .section3midRight > h3 {
+    font-size: 18px;
+  }
+
+  .section3midRight > p {
+    font-size: 16px;
+  }
+  .section3lowerLeft {
+    display: none;
+  }
+  .section3lowerRight {
+    width: 100%;
+    position: relative;
+  }
+  .section3Pinktext {
+    font-size: 16px !important;
+  }
+  .section3lowerRight > h1 {
+    font-size: 18px;
+  }
+  .section3lowerRight > p {
+    font-size: 14px;
+  }
+  .section3Lower {
+    margin-top: 30px;
+  }
+  .section3Pinktextline {
+    display: block;
+    color: #ff3366 !important;
+    font-size: 16px !important;
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section3Avatar {
+    position: absolute;
+    right: 240px;
+    top: 250px;
+  }
 }

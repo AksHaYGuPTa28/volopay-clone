@@ -52,3 +52,45 @@
   color: #0075eb;
   font-size: 24px;
 }
+@media screen and (max-width: 479px) {
+  .section7Main {
+    padding: 30px;
+  }
+
+  .section7Main > h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  .section7Main > p {
+    font-size: 16px;
+  }
+  .section7cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .section7Card {
+    width: 100%;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #27282c;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  .section7Card > h3 {
+    font-size: 18px;
+  }
+
+  .section7Card > p {
+    font-size: 16px;
+  }
+
+  .section7Card > i {
+    color: #0075eb;
+    font-size: 24px;
+  }
+}

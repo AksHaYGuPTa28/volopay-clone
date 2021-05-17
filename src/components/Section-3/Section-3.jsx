@@ -46,7 +46,8 @@ function Section3() {
           </div>
         </div>
         <div className="section3lowerRight">
-          <img className="section3Quote"
+          <img
+            className="section3Quote"
             src="https://static.tildacdn.com/tild6131-3438-4136-a366-663065323062/photo.svg"
             alt="quote"
           />
@@ -55,6 +56,7 @@ function Section3() {
             now have better visibility and control, while earning 2% cashback.
           </h1>
           <p>Mitul Doshi, President Finance & ops - Invideo</p>
+          <p className="section3Pinktextline">Read Case Study</p>
         </div>
       </div>
     </div>

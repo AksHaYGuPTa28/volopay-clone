@@ -11,15 +11,15 @@ import Logo8 from "../../assets/images/supportLogos/logo8.webp";
 import Logo9 from "../../assets/images/supportLogos/logo9.webp";
 import Logo10 from "../../assets/images/supportLogos/logo10.webp";
 
-function Companies() {
+function SCompanies() {
   return (
-    <div className="companiesMain">
+    <div className="companiesMains">
       <h3>Supported By</h3>
       <p>
         We are proud to be supported by world's leading investors, founders and
         senior leadership of world's leading companies.
       </p>
-      <div className="companieslogoContainer">
+      <div className="companieslogoContainers">
         <div className="logo">
           <img src={Logo1} alt="1st logo"></img>
         </div>
@@ -55,4 +55,4 @@ function Companies() {
   );
 }
 
-export default Companies;
+export default SCompanies;

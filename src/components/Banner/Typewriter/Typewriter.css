@@ -2,11 +2,10 @@
 
 .typewriterText {
   color: #17191d;
-  font-size: 65px;
+  font-size: 60px;
   font-family: "Poppins", Arial, sans-serif;
   line-height: 1.25;
   font-weight: 700;
-
 }
 
 .cursor {
@@ -19,5 +18,12 @@
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .typewriterText {
+    font-size: 32px;
+    line-height: 1.3;
   }
 }

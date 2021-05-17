@@ -1,15 +1,12 @@
 import React from "react";
 import "./Banner.css";
-import Bannerimage from "../../assets/images/Final_1-01-01.svg";
 import Typer from "./Typewriter/Typewriter";
 
 function Banner() {
   return (
-    <div className="">
       <div className="bannerMain">
         <div className="bannerLeft">
           <Typer
-            heading={"The financial control center to manage"}
             dataText={[
               "spending|",
               "finances|",
@@ -27,10 +24,13 @@ function Banner() {
           <button className="bannerButton">Sign Up for free</button>
         </div>
         <div className="bannerRight">
-          <img src={Bannerimage} alt="Banner"></img>
+          <img
+            src="https://static.tildacdn.com/tild3533-3338-4161-b464-656430616438/Final_1-01-01.svg"
+            alt="Banner"
+          />
         </div>
+        
       </div>
-    </div>
   );
 }
 

@@ -73,3 +73,52 @@
   color: #ff3366 !important;
   font-size: 18px !important;
 }
+
+@media screen and (max-width: 479px) {
+  .section8Main {
+    padding: 30px;
+    padding-bottom: 0px;
+  }
+  .section8Main > h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  .section8Main > p {
+    font-size: 16px;
+  }
+
+  .section8Mid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section8midLeft {
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  .section8midLeft > h3 {
+    font-size: 18px;
+  }
+
+  .section8midLeft > p {
+    font-size: 16px;
+  }
+
+  .section8midRight {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+
+  .section8midRight > h3 {
+    font-size: 18px;
+  }
+
+  .section8midRight > p {
+    font-size: 16px;
+  }
+  .section8Pinktext {
+    font-size: 16px !important;
+  }
+}

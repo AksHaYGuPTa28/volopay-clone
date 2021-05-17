@@ -4,7 +4,7 @@
 }
 .companiesMain > p {
   color: #4a4e57;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Poppins", Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -30,6 +30,24 @@
 }
 
 .logo1 > img {
-  width: 125px;
+  width: 170px;
   object-fit: contain;
+}
+
+@media screen and (max-width: 479px) {
+  .companieslogoContainer {
+    padding: 0px;
+    margin-left: 0px;
+    line-height: 50px;
+    margin-top: 40px;
+  }
+  .logo1 > img {
+    width: 100px;
+  }
+  .logo1 {
+    width: 50%;
+  }
+  .companiesMain > p {
+    font-size: 14px;
+  }
 }

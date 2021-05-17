@@ -32,8 +32,21 @@
   border: none;
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 479px) {
   .bannerMain {
     flex-direction: column;
+  }
+  .bannerLeft {
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+  .bannerSmalltext {
+    font-size: 16px;
+  }
+  .bannerRight > img {
+    width: 350px;
   }
 }

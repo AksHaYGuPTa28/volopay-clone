@@ -3,7 +3,6 @@ import "./Typewriter.css";
 
 class Typer extends React.Component {
   static defaultProps = {
-    heading: "",
     dataText: [],
   };
 
@@ -50,7 +49,9 @@ class Typer extends React.Component {
   render() {
     return (
       <h1 className="typewriterText">
-        {this.props.heading}&nbsp;
+        The financial <br />
+        control center to <br />
+        manage&nbsp;
         <span className="cursorText">{this.state.text}</span>
         <span className="cursor"></span>
       </h1>

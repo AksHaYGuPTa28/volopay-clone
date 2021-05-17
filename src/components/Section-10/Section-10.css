@@ -26,3 +26,31 @@
 .section10Right {
   width: 50%;
 }
+
+@media screen and (max-width: 479px) {
+  .section10Main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff3366;
+    padding-top: 0px;
+    padding: 30px;
+  }
+
+  .section10Left {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .section10Left > h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .section10Right {
+    width: 100%;
+  }
+  .section10Right > img {
+    width: 300px;
+  }
+}

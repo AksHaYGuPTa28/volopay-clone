@@ -37,8 +37,13 @@ function Section5() {
           <div className="section5imageSection">
             <img
               className="section5image"
-              src="https://thumb.tildacdn.com/tild6134-3332-4266-a263-663231373432/-/cover/341x397/center/center/-/format/webp/Man_Typing_on_Macboo.jpg"
+              src="https://thumb.tildacdn.com/tild6564-3262-4539-a639-383539633634/-/cover/341x399/center/center/-/format/webp/credit-card-mockup.jpg"
               alt="section5-image"
+            />
+            <img
+              className="section5Avatar"
+              src="https://thumb.tildacdn.com/tild6539-6134-4434-a363-336465616233/-/cover/161x207/center/center/-/format/webp/1529909885713.jpg"
+              alt="section5-avatar"
             />
           </div>
         </div>
@@ -49,10 +54,10 @@ function Section5() {
             alt="quote"
           />
           <h1>
-            Volopay has added a new dimension to the way we make payments to
-            vendors, and the FX fees are so low.
+            Volopay helps us reduce time, effort and cost in expense management,
+            and give us generous cashback.
           </h1>
-          <p>Jeanie Devi, Accountant, Dathena Science</p>
+          <p>Jimmy Lee, Director of Finance, Beam Mobility</p>
           <p className="section5Pinktextline">Read Case Study</p>
         </div>
       </div>

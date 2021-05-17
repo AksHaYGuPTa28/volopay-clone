@@ -19,3 +19,34 @@
   font-weight: 400;
   margin-left: 50px;
 }
+
+@media screen and (max-width: 479px) {
+  .section2Main {
+    padding: 20px;
+  }
+  .section2Main > h1 {
+    font-size: 32px;
+    line-height: 1.3;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .section2Main > p {
+    font-size: 16px;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .section2Main > h1 {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .section2Main > p {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .section2Main > p {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}

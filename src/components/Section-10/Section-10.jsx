@@ -6,7 +6,8 @@ function Section10() {
     <div className="section10Main">
       <div className="section10Left">
         <h1>
-          Bring Volopay to your business <span className="section10Span">Get started free</span>
+          Bring Volopay to your business <br />
+          <span className="section10Span">Get started free</span>
         </h1>
       </div>
       <div className="section10Right">
